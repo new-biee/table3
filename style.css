@@ -1,0 +1,41 @@
+table.border{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 30px;
+    width: 33%;
+}
+
+table.bob {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100px;
+}
+
+tr.bob, td.bob, th.bob{
+    width: 33%;
+    text-align: left;
+    padding-left: 2%;
+}
+
+tr.border {
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+div{
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
